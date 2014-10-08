@@ -1,6 +1,8 @@
 urlencoded-request-parser
 =========================
 
+[![Build Status][travis-image]][travis-url]
+
 Express middleware which parses url encoded bodies via qs and exposes options to qs
 
 Installation
@@ -18,3 +20,6 @@ app.use(parseUrlencoded(opts);
 ```
 
 Where `opts` are the ones used by [`qs`](https://github.com/hapijs/qs).
+
+[travis-image]: https://travis-ci.org/apechimp/urlencoded-request-parser.svg
+[travis-url]: https://travis-ci.org/apechimp/urlencoded-request-parser
