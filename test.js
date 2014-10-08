@@ -1,6 +1,6 @@
 var test = require('tape');
 var servertest = require('servertest');
-var parseUrlEncoded = require('.');
+var parseUrlEncoded = require('./index');
 var http = require('http');
 
 test('should parse and attach to req.body', function(t) {
