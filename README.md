@@ -7,7 +7,7 @@ Express middleware which parses url encoded bodies via qs and exposes options to
 
 Installation
 ============
-``npm install --save urlencoded-request-parser``
+[![npm install urlencoded-request-parser][npm-image]][npm-url]
 
 Usage
 =====
@@ -21,5 +21,7 @@ app.use(parseUrlencoded(opts);
 
 Where `opts` are the ones used by [`qs`](https://github.com/hapijs/qs).
 
+[npm-image]: https://nodei.co/npm/urlencoded-request-parser.png?downloads=true
+[npm-url]: https://www.npmjs.org/package/urlencoded-request-parser
 [travis-image]: https://travis-ci.org/apechimp/urlencoded-request-parser.svg
 [travis-url]: https://travis-ci.org/apechimp/urlencoded-request-parser
