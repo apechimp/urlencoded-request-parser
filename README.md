@@ -16,7 +16,7 @@ Usage
 var parseUrlencoded = require('urlencoded-request-parser');
 var opts = { arrayLimit: 0 };
 
-app.use(parseUrlencoded(opts);
+app.use(parseUrlencoded(opts));
 ```
 
 Where `opts` are the ones used by [`qs`](https://github.com/hapijs/qs).
