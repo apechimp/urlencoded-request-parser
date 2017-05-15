@@ -1,6 +1,8 @@
 urlencoded-request-parser
 =========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/apechimp/urlencoded-request-parser.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-image]][travis-url]
 
 Express middleware which parses url encoded bodies via qs and exposes options to qs
